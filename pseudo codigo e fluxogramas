@@ -1,0 +1,227 @@
+Ferramentas de planejamento de soluções
+
+Uso de pseudocódigo e fluxogramas para problemas mais complexos
+
+Para resolver problemas complexos de maneira eficiente, é essencial planejar a solução antes de começar a 
+programar. Duas ferramentas eficazes para esse planejamento são o pseudocódigo e os fluxogramas . 
+Essas ferramentas permitem visualizar a lógica do algoritmo, identificar possíveis problemas 
+antecipadamente e comunicar a lógica para outras pessoas de maneira clara e concisa.
+
+
+Pseudocódigo
+
+É uma forma de descrever a lógica do algoritmo em linguagem natural, de maneira estruturada e fácil de 
+entender. Ele não segue a sintaxe de uma linguagem de programação específica, mas permite que você 
+organize suas ideias e planeje a estrutura do programa.
+
+ 
+
+Veja um exemplo de pseudocódigo para verificar se um número é divisível por 2:
+
+
+C (GCC 9.2.0)
+
+Início
+    Solicitar ao usuário um número
+    Receber o número fornecido
+    Se o número for divisível por 2 então
+        Exibir "O número é par"
+    Senão
+        Exibir "O número é ímpar"
+Fim
+L
+
+Benefícios do pseudocódigo
+
+Utilizar pseudocódigo oferece diversas vantagens para a estruturação de algoritmos e planejamento de 
+soluções. Vamos conhecê-las!
+
+
+1
+Simplicidade
+
+
+Como o pseudocódigo não segue a sintaxe rígida de uma linguagem de programação, ele é mais fácil de 
+escrever e entender.
+
+
+2
+Clareza
+
+
+Ajuda a descrever a lógica do programa de forma clara, permitindo que qualquer pessoa, independentemente 
+do nível de conhecimento em programação, compreenda a solução proposta.
+
+
+3
+Foco na lógica
+
+
+Ao usar pseudocódigo, você pode se concentrar na lógica do algoritmo sem se preocupar com detalhes de 
+implementação.
+
+
+Ferramentas para criação de pseudocódigo
+
+Para criar e organizar pseudocódigos, você pode utilizar várias ferramentas on-line e off-line.
+ Algumas opções populares incluem:
+
+
+
+PSeInt 
+
+Software que ajuda a desenvolver algoritmos em pseudocódigo de forma visual, facilitando a compreensão e 
+o aprendizado.
+
+
+Portugol
+
+Ferramenta que permite a escrita de pseudocódigos em português, proporcionando uma maneira simples e 
+intuitiva de aprender lógica de programação.
+
+Essas ferramentas oferecem recursos que facilitam a escrita, organização e visualização de pseudocódigos, 
+tornando o processo de planejamento mais eficiente.
+
+
+Fluxogramas
+
+São representações gráficas de um algoritmo, usando símbolos padronizados para ilustrar os passos e o 
+fluxo do processo. Eles são úteis para visualizar a lógica e a sequência das operações.
+
+Antes de criar seu fluxograma, é importante conhecer os componentes principais, que estão descritos a 
+seguir e representados na imagem.
+
+
+Ação ou processo
+
+Representado por um retângulo, indica uma operação ou conjunto de operações.
+
+
+Decisão
+
+Representado por um losango, indica um ponto onde uma decisão é feita, levando a diferentes caminhos.
+
+
+Conector
+
+Representado por um círculo, é usado para conectar diferentes partes do fluxograma.
+
+
+Entradas e saídas de dados
+
+Representado por um paralelogramo, indica pontos em que dados são recebidos ou enviados.
+
+
+Início/Fim
+
+Representado por um oval, indica o começo ou o fim do fluxo.
+
+
+Seta de fluxo
+
+Representada por uma seta, indica a direção e a sequência do fluxo do processo.
+
+
+Extrair
+
+Representado por um triângulo, indica uma operação de extração de dados ou informações.
+
+
+
+
+Observe agora o uso prático dos componentes citados.
+
+
+
+Fluxograma e seus componentes.
+
+Benefícios dos fluxogramas
+
+Oferecem inúmeras vantagens para a visualização e compreensão de algoritmos, permitindo uma análise clara
+ e organizada do fluxo do programa.
+
+
+Visualização clara
+
+Os fluxogramas permitem visualizar a sequência de operações e o fluxo lógico de um programa de forma 
+clara e organizada.
+
+
+Identificação de problemas
+
+A representação gráfica ajuda a identificar erros lógicos e gargalos no processo antes mesmo de escrever 
+uma linha de código.
+
+
+Facilidade de compreensão
+
+Ao usar símbolos gráficos padronizados, os fluxogramas tornam-se fáceis de entender, mesmo para aqueles 
+que não têm conhecimento profundo em programação.
+
+
+Exemplos práticos de representação de problemas
+
+Vamos ver dois exemplos de algoritmos representados por fluxogramas, cada um acompanhado por uma imagem 
+que ilustra os passos descritos.
+
+
+
+Verificar se um número é divisível por 2 
+
+Esse algoritmo tem como objetivo verificar se um número fornecido pelo usuário é divisível por 2,
+ ou seja, se o número é par. Isso é feito verificando se o resto da divisão do número por 2 é zero. 
+ Vamos ver como fica o passo a passo do fluxograma e a imagem que representa o processo:
+
+Início.
+Perguntar ao seu amigo o número.
+Receber a resposta.
+Calcular o resto da divisão do número por 2.
+Verificar se o resto é 0.
+Se SIM, responder que o número é PAR.
+Se NÃO, responder que o número é ÍMPAR.
+Fim.
+Vejamos como fica o fluxograma!
+
+
+Fluxograma do exemplo 1.
+
+Verificar se o número é um quadrado perfeito 
+
+Esse algoritmo tem como objetivo verificar se um número fornecido pelo usuário é um quadrado perfeito. 
+Um número é considerado um quadrado perfeito se a sua raiz quadrada é um número inteiro. A seguir,
+ estão os passos do fluxograma e a imagem que representa o processo:
+
+Início.
+Solicitar um número inteiro ao usuário.
+Receber a resposta do usuário com o valor N1.
+Calcular a raiz quadrada de N1.
+Verificar se a raiz quadrada de N1 é inteira.
+Se SIM, exibir "O número informado é quadrado perfeito!"
+Se NÃO, exibir "O número informado não é quadrado perfeito!"
+Fim.
+Vejamos como fica o fluxograma!
+
+
+Fluxograma do exemplo 2.
+Ferramentas para criação de fluxogramas
+
+Para criar fluxogramas, você pode usar várias ferramentas on-line e off-line. Aqui estão algumas opções 
+populares. Confira!
+
+ 
+
+Bizagi: permite criar fluxogramas e modelar processos de negócios.
+Microsoft Word: permite a criação de fluxogramas usando formas e conectores.
+Microsoft PowerPoint: facilita a criação de fluxogramas com uma interface intuitiva para desenhar formas 
+e setas.
+ 
+
+Essas ferramentas oferecem recursos que facilitam o desenho de fluxogramas detalhados e a visualização 
+clara da lógica dos algoritmos.
+
+
+Atenção
+O uso de pseudocódigo e fluxogramas é fundamental para o planejamento de soluções de problemas complexos. 
+Eles ajudam a visualizar a lógica do programa, identificar possíveis problemas antecipadamente e 
+comunicar a lógica para outras pessoas de maneira clara e concisa. Utilizando essas ferramentas, 
+você estará mais bem preparado para desenvolver programas eficientes e bem estruturados.
